@@ -1,25 +1,33 @@
 # Anastasiya Pavlovskaya
 ### Future HR manager
 
-#### Contact information:
-**Phone:** +375(33)337-25-42  |  **Email:** pavlovskya2003@gmail.com
+### Contact information:
+##### **Phone:** +375(33)337-25-42 
+##### **Email:** pavlovskya2003@gmail.com
+##### **Inst:** anst_pvl
+##### **Tg:** Paastyaa
 
-#### Soft skills:
+### Soft skills:
 - Responsibility
 - High communication skills
 - Time managment skills
 - Flexibility
 - Critical thinking
 
-#### Skills:
+### Skills:
 - Adobe Photoshop, Canva
 - C++
 - Microsoft Word/Excel
 - Git, Github
-- English level is B2
+- English level - B2
 - Cmd, Linux
 
-#### Code:
+### Courses:
+- 
+
+
+
+### Code:
 ```c++
 class cube {
 protected:
