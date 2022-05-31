@@ -1,10 +1,12 @@
+
+
 # Anastasiya Pavlovskaya
 ### Future HR manager
 
 ### Contact information:
 ##### **Phone:** +375(33)337-25-42 
 ##### **Email:** pavlovskya2003@gmail.com
-##### **Inst:** anst_pvl
+##### **Inst:** [anst_pvl](https://www.instagram.com/anst_pvl/)
 ##### **Tg:** Paastyaa
 
 ### Soft skills:
