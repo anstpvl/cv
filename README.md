@@ -22,11 +22,6 @@
 - English level - B2
 - Cmd, Linux
 
-### Courses:
-- 
-
-
-
 ### Code:
 ```c++
 class cube {
