@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>cv</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com- crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+              <div class="section-profile-logo"> 
+                <img src="./assets/me.jpg" alt="Anastasia">
+              </div>
+              <div class="section-profile-title">
+                  <h1 class="section-title main-title">Pavlovskaya Anastasia</h1>
+                  <h2 class="section-subtitle">student</h2>
+              </div>
+            </section>  
+            <section class="section" id="contacts">
+                <h3 class="section-contacts">Contacts</h3>
+                <ul class="section-list">
+                    <li class="section-item contacts-item">Vitebsk, Belarus</li>
+                    <li class="section-item contacts-item">Email: <a href="mailto:pavlovskya2003@gmail.com" title="email">pavlovskya2003@gmail.com</a></li>
+                    <li class="section-item contacts-item">Github: <a href="https://github.com/anstpvl" title="github">anstpvl</a></li>
+                    <li class="section-item contacts-item">Telegram: <a href="https://t.me/Paastyaa" title="Telegram">@Paastyaa</a></li>
+                </ul>
+            </section>
+            <section class="section section-skills" id="skills">
+              <h3>Skills</h3>
+              <br>
+              <ul>
+                <li>C++</li>    
+                <li>Microsoft Excel</li>    
+                <li>Microsoft Word</li>
+                <li>CMD</li>
+                <li>Linux</li>
+              </ul>
+            </section>
+            <section class="section section-code" id="code">
+              <h3>Code</h3>
+              <pre class="pre">
+<code>class Circle 
+{    
+ protected: 
+ double R; 
+ public: 
+ Circle(double R) 
+    {    
+ this->R = R; 
+    }    
+ double s1() 
+    {    
+ return 3.14 * (R * R); 
+    }    
+  };    
+class Ring :public Circle 
+{    
+ protected: 
+ double r; 
+ public: 
+ Ring(double r, double R) : Circle(R) 
+    {      
+ this->r = r; 
+    }    
+ double s2() 
+    {    
+ return (3.14 * R * R) - (3.14 * r * r); 
+    }    
+};    
+int main() 
+{    
+ setlocale(0, "rus"); 
+ double r, R; 
+ cout << "Введите радиус большей окружности: "; 
+ cin >> R; 
+ cout << "Введите радиус меньшей окружности: "; 
+ cin >> r; 
+ Circle Ci(R); 
+ Ring Ri(r, R); 
+ cout << "Площадь круга равна " << Ci.s1() << "\n"; 
+ cout << "Площадь кольца равна " << Ri.s2() << "\n"; 
+ system("pause"); 
+ return 0; 
+}</code>
+          </pre>
+            </section>
+            <section class="section section-education" id="education">
+            <h3>Current studying:</h3>
+            <br>Information resource management, 1 grade, VSU named after P.M. Masherov
+            <br><br>
+            <h3>Previous education:</h3>
+            <br>School №46 named after I. H. Bagramyana, from 1th to 11th grade, GPA - 9.2
+            </section>
+            <section class="section section-english" id="english">
+            <h3>English level</h3>  
+            <br>В2
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            2022
+            <a href="https://github.com/anstpvl" class="github nav-link">
+ anstpvl
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
