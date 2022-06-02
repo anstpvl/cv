@@ -1,2 +1,2 @@
 # cv
-#  https://anstpvl.github.io/cv
+#  https://anstpvl.github.io/cv/cv
